@@ -17,7 +17,7 @@
         <td>
           <ul>
             <li v-for="(border, index) in borders" :key="index">
-              {{ border }}
+              <a :href="`/list/${border}`">{{ border }}</a>
             </li>
           </ul>
         </td>
